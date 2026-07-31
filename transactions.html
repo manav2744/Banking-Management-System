@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Transactions</title>
+
+<link rel="stylesheet" href="transactions.css">
+
+</head>
+
+<body>
+
+<h1>Bank Transactions</h1>
+
+<hr><br>
+
+<label>Select Customer</label>
+
+<br><br>
+
+<select id="customerSelect">
+
+</select>
+
+<br><br>
+
+<label>Amount</label>
+
+<br><br>
+
+<input
+type="number"
+id="amount"
+placeholder="Enter Amount">
+
+<br><br>
+
+<button onclick="depositMoney()">
+
+Deposit
+
+</button>
+
+<button onclick="withdrawMoney()">
+
+Withdraw
+
+</button>
+
+<hr><br>
+
+<h2>Transfer Money</h2>
+
+<br>
+
+<label>Sender</label>
+
+<br><br>
+
+<select id="sender">
+
+</select>
+
+<br><br>
+
+<label>Receiver</label>
+
+<br><br>
+
+<select id="receiver">
+
+</select>
+
+<br><br>
+
+<input
+type="number"
+id="transferAmount"
+placeholder="Transfer Amount">
+
+<br><br>
+
+<button onclick="transferMoney()">
+
+Transfer
+
+</button>
+
+<script src="transactions.js"></script>
+
+</body>
+
+</html>

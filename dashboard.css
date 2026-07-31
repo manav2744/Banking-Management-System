@@ -1,0 +1,100 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+/* Sidebar */
+.sidebar{
+    width: 220px;
+    height: 100vh;
+    background-color: #003366;
+    color: white;
+    float: left;
+}
+
+.sidebar h2{
+    text-align: center;
+    padding: 20px;
+}
+
+.sidebar ul{
+    list-style: none;
+}
+
+.sidebar ul li{
+    padding: 15px;
+}
+
+.sidebar ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.sidebar ul li:hover{
+    background-color: #0055aa;
+}
+
+/* Main Section */
+.main{
+    margin-left: 220px;
+    padding: 20px;
+}
+
+/* Header */
+.header{
+    margin-bottom: 20px;
+}
+
+/* Dashboard Cards */
+.card{
+    width: 220px;
+    height: 120px;
+    background-color: white;
+    border: 1px solid #ccc;
+    display: inline-block;
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+}
+
+.card h3{
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.card h2{
+    color: green;
+}
+
+/* Table */
+.table-section{
+    margin-top: 30px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+table, th, td{
+    border: 1px solid #ccc;
+}
+
+th{
+    background-color: #003366;
+    color: white;
+}
+
+th, td{
+    padding: 10px;
+    text-align: center;
+}

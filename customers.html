@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Customers</title>
+
+    <link rel="stylesheet" href="customers.css">
+</head>
+
+<body>
+
+    <h1>Customer Management</h1>
+
+    <hr><br>
+
+    <input
+        type="text"
+        id="search"
+        placeholder="Search Customer..."
+        onkeyup="searchCustomer()">
+
+    <br><br>
+
+    <form id="customerForm">
+
+        <input
+            type="text"
+            id="name"
+            placeholder="Customer Name"
+            required>
+
+        <input
+            type="number"
+            id="account"
+            placeholder="Account Number"
+            required>
+
+        <input
+            type="number"
+            id="balance"
+            placeholder="Balance"
+            required>
+
+        <button>Add Customer</button>
+
+    </form>
+
+    <br>
+
+    <table>
+
+        <thead>
+
+            <tr>
+
+                <th>Name</th>
+                <th>Account</th>
+                <th>Balance</th>
+                <th>Action</th>
+
+            </tr>
+
+        </thead>
+
+        <tbody id="customerTable">
+
+        </tbody>
+
+    </table>
+
+<script src="customers.js"></script>
+
+</body>
+
+</html>
